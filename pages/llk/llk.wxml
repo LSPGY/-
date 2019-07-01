@@ -1,0 +1,14 @@
+<!--pages/llk/llk.wxml-->
+<view class="body">
+ <view class="tou">分数为：</view>
+  <view class="con">
+    <block wx:for="{{list}}" >
+      <block wx:for="{{item}}" wx:for-item="da">
+        <view class="kuai" style='visibility:{{da[1]==-1?"hidden":""}}'   bindtap='danji' data-in='{{da}}'>
+          {{da[1]}}
+        </view>
+      </block>
+    </block>
+  </view>
+ <view class="floor"></view>
+</view>

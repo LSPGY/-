@@ -1,0 +1,37 @@
+/* pages/llk/llk.wxss */
+page{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .body{
+    height:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 0;
+    box-sizing:border-box
+  }
+  .tou{
+    height:10%;
+    width:100%;
+  }
+
+  .con{
+    height: 65%;
+    width: 640rpx
+
+  }
+  .floor{
+    height: 10%;
+    width: 100%;
+  }
+
+  .kuai{
+    display: inline-block;
+    height:100rpx;
+    width:10%;
+    text-align: center;
+  }
